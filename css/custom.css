@@ -1,17 +1,61 @@
+/*
+ * Elements
+ */
+
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 63px;
 }
 
-.navbar-custom { 
-    background-color: #2c3e50;
-    margin-bottom: 20px; 
+p {
+    font-size: 21px;
 }
 
+
+/*
+ * Classes
+ */
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.div-thumbnail {
+    padding: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.img-text-overlay {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-text-overlay-bottom {
+    height: 140px;
+    top: 35%;
+    padding-top: 300px;
+}
+
+.img-text-overlay-top {
+    height: 75%;
+}
+
+.img-text-overlay:hover {
+    opacity: 1;
 }
 
 .jumbotron-custom {
@@ -20,5 +64,21 @@ h1 {
     border-bottom-right-radius: 6px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 80px;
     height: 270px;
 }
+
+.navbar-custom { 
+    background-color: #2c3e50;
+    margin-bottom: 20px; 
+}
+.row-custom {
+    padding: 3px;
+    margin-bottom: 100px;
+}
+
+/*
+ * Elements
+ */
